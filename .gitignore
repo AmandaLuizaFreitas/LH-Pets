@@ -1,0 +1,37 @@
+## Saída de build
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio / VS Code / Rider
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.DotSettings.user
+
+## Pacotes e publicação
+*.nupkg
+*.snupkg
+publish/
+PublishScripts/
+project.lock.json
+.nuget/
+
+## Testes
+TestResults/
+[Tt]est[Rr]esult*/
+coverage/
+
+## Segredos e configurações locais
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.pfx
+
+## Sistema operacional
+.DS_Store
+Thumbs.db
