@@ -3,6 +3,12 @@
 Web API em **C# / ASP.NET Core** (padrão **Controllers**) para o cadastro e a listagem de **Clientes** e **Pets** da empresa LH-Pets.
 
 > Protótipo: **não usa banco de dados**. Todos os dados ficam em memória (`List<T>`) e são perdidos ao reiniciar a aplicação.
+## Swagger
+<img width="1478" height="542" alt="Captura de tela de 2026-11-24 11-20-20" src="https://github.com/user-attachments/assets/735d5c01-b467-458f-a066-7c9698464ce5" />
+### Cadastro de cliente (POST /api/Clientes)
+<img width="1478" height="542" alt="Captura de tela de 2026-11-24 11-21-05" src="https://github.com/user-attachments/assets/4479b6e4-c22b-4e55-ad5c-5bbe23b1d20a" />
+
+---
 
 ## Tecnologias
 
@@ -128,6 +134,3 @@ Abra `/swagger`, clique em cada endpoint, **Try it out**, preencha e **Execute**
 | 12 | `GET /api/pets/cliente/{clienteId}` | `2` | 200 — Mia |
 | 13 | `GET /api/pets/cliente/{clienteId}` | `99` | 404 — cliente não encontrado |
 
-## Autor
-
-Projeto desenvolvido individualmente como atividade avaliativa — *Desenvolvimento de Web API em ASP.NET Core MVC (LH-Pets)*.
